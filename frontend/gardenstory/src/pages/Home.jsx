@@ -1,5 +1,6 @@
 import Layout from "../components/layout/Layout";
 import Container from "../components/layout/Container";
+import Calendar from "../components/Calendar";
 
 export default function Home() {
   return (
@@ -10,13 +11,12 @@ export default function Home() {
             Tervetuloa puutarhaan
           </h2>
 
-          <h1 className="text-4xl font-bold text-red-600">
-            Tailwind toimii 🌱
-          </h1>
-          
+
           <p className="text-green-800">
             Valitse päivä kalenterista tai lisää uusi merkintä.
           </p>
+
+          <Calendar />
         </div>
       </Container>
     </Layout>
