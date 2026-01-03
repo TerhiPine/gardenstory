@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-page-bg: var(--color-green-200);
+    --color-page-text: var(--color-green-900);
+    --font-main: sans-serif
+}
+
+/* teema perintisellä css:llä */
+body {
+    background-color: var(--color-page-bg);
+    color: var(--color-page-text);
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-main);
+    min-height: 100vh;
+}
